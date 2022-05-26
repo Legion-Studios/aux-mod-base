@@ -15,13 +15,13 @@ If you start your tag with a number, under certain conditions, classnames called
 How do I create a key?
 
 Open up DSUtils in the Arma 3 Tools
-[Open DSUtils](aux-mod-base/img/DSUtils_1.png)
+[Open DSUtils](img/DSUtils_1.png)
 
 Click the 'N' button
-[Click 'N'](aux-mod-base/img/DSUtils_2.png)
+[Click 'N'](img/DSUtils_2.png)
 
 Create your new key
-[Create Key](aux-mod-base/img/DSUtils_3.png)
+[Create Key](img/DSUtils_3.png)
 
 
 ## Build Methods
