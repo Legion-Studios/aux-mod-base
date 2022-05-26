@@ -10,7 +10,10 @@ class CfgPatches
             "lsd_armor_bluefor",
         };
         weapons[] = {};
-        units[] = {};
+        // Allows for this trooper to be placed in Zeus
+        units[] = {
+            "MYTAG_MYUNIT_phase2_trooper"
+        };
     };
 };
 
