@@ -1,5 +1,9 @@
 # aux-mod-base
-Auxiliary mod base exmple; primarily for mods developed off of Legion Studios content, but applicable to any context or mod
+Auxiliary mod base exemple; primarily for mods developed off of Legion Studios content, but applicable to any context or mod
+
+This is not concerned with higher and/or more complex development practices, such as the use of a P:\ drive and development of custom assets. This is set up with the idea that someone with the absolute bare minimum amount of skill could make their own asset retexture mod out of this example.
+
+As we develop more content and/or classnames change, this repository will be updated.
 
 # Important Notes
 You may branch, fork, copy, modify, etc. this code.
@@ -23,13 +27,27 @@ Click the 'N' button
 Create your new key
 ![Create Key](img/DSUtils_3.png)
 
+It will create two files `MYTAG.bikey` and `MYTAG.biprivatekey`.
+
+`MYTAG.bikey` is what you should put in the `@LocalModTest\key` folder
+
+`MYTAG.biprivatekey` should go in the `privateKey` folder.
+
+Your private key is essentially your fingerprint on the workshop. Do not share it lightly!
 
 ## Build Methods
 These mods are set up with the understanding that you will be using the default arma 3 tool, "AddonBuilder". If you plan on using Mikero's tools, you will need to change these pathings.
 
-When using addon builder for the first time you will want to go to "Options" and copy and paste this:
-`*.pac;*.paa;*.sqf;*.sqs;*.bikb;*.fsm;*.wss;*.ogg;*.wav;*.fxy;*.csv;*.html;*.lip;*.txt;*.bisurf;*.sqm;*.ext;*.dbf;*.prj;*.shx;*.shp;*.jpg;*.rvmat;*.inc;*.xml;`
-...to the 'List of files to copy directly' input.
+When using addon builder for the first time you will want to go to "Options"
+
+![Addon Builder](img/SaveDirectly_1.png)
+
+...and copy and paste this: `*.pac;*.paa;*.sqf;*.sqs;*.bikb;*.fsm;*.wss;*.ogg;*.wav;*.fxy;*.csv;*.html;*.lip;*.txt;*.bisurf;*.sqm;*.ext;*.dbf;*.prj;*.shx;*.shp;*.jpg;*.rvmat;*.inc;*.xml;` to the 'List of files to copy directly' input.
+
+![Files To copy directly](img/SaveDirectly_2.png)
+
+You will also want to put your direct path to the privateKey for Addon Builder to sign it.
+
 
 ## Testing and Publishing
 You can use @LocalModTest both as a local test mod and as a publishing folder via the Arma 3 Publisher
