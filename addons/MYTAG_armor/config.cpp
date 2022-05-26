@@ -67,8 +67,8 @@ class CfgVehicles
         editorSubcategory = MYTAG_MYUNIT_clones;
         uniformClass = MYTAG_MYUNIT_phase2_uniform;
         hiddenSelectionsTextures[]={
-            "\MYTAG_armor\data\MYTAG_base_camo1_co.paa",
-            "\MYTAG_armor\data\MYTAG_base_camo2_co.paa",
+            "\MYTAG_armor\data\MYTAG_baseUniform_camo1_co.paa",
+            "\MYTAG_armor\data\MYTAG_baseUniform_camo2_co.paa",
             "\ls_armor_bluefor\uniform\gar\phase2\data\undersuit_co.paa"
         };
     };
@@ -87,9 +87,9 @@ class CfgVehicles
         // We don't include this here as we usually don't want custom uniforms placeable as units in the editor
         uniformClass = MYTAG_MYUNIT_CUSTOMNAME_uniform;
         hiddenSelectionsTextures[]={
-            "\MYTAG_armor\data\....paa",
-            "\MYTAG_armor\data\....paa",
-            "\ls_armor_bluefor\uniform\gar\phase2\data\undersuit_co.paa"            
+            "\MYTAG_armor\data\MYTAG_baseUniform_camo1_co.paa",
+            "\MYTAG_armor\data\MYTAG_baseUniform_camo2_co.paa",
+            "\ls_armor_bluefor\uniform\gar\phase2\data\undersuit_co.paa"   
         };
     };
 };

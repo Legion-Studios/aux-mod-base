@@ -24,7 +24,7 @@ class CfgFactionsClasses
 // This creates a subcategory or subfolder for a faction
 class CfgEditorSubcategories
 {
-    class MYTAG_gar_clones
+    class MYTAG_MYUNIT_clones
     {
         displayName = "[MYUNIT] Troopers";
     };
