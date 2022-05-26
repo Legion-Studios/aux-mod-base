@@ -1,5 +1,5 @@
 # aux-mod-base
-Auxiliary mod base exemple; primarily for mods developed off of Legion Studios content, but applicable to any context or mod
+Auxiliary mod base example; primarily for mods developed off of Legion Studios content, but applicable to any context or mod
 
 This is not concerned with higher and/or more complex development practices, such as the use of a P:\ drive and development of custom assets. This is set up with the idea that someone with the absolute bare minimum amount of skill could make their own asset retexture mod out of this example.
 
