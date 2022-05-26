@@ -1,5 +1,5 @@
 # aux-mod-base
-Auxiliary mod base exmple; primarily for mods developed off of Legion Studios content, but applicable to any context
+Auxiliary mod base exmple; primarily for mods developed off of Legion Studios content, but applicable to any context or mod
 
 # Important Notes
 You may branch, fork, copy, modify, etc. this code.
@@ -15,13 +15,13 @@ If you start your tag with a number, under certain conditions, classnames called
 How do I create a key?
 
 Open up DSUtils in the Arma 3 Tools
-[Open DSUtils](img/DSUtils_1.png)
+![Open DSUtils](img/DSUtils_1.png)
 
 Click the 'N' button
-[Click 'N'](img/DSUtils_2.png)
+![Click 'N'](img/DSUtils_2.png)
 
 Create your new key
-[Create Key](img/DSUtils_3.png)
+![Create Key](img/DSUtils_3.png)
 
 
 ## Build Methods
