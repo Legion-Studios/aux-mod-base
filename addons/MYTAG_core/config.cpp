@@ -5,6 +5,8 @@ class CfgPatches
         author = "Jake, from Statefarm";                    // Your name, aux team, etc.
         name = "MYUNIT: Core";
         requiredAddons[] = {
+            "A3_Data_F_Decade_Loadorder",  // A "load order" addon, this makes sure your mod loads after all of vanilla
+            "cba_main", // load order addon for CBA. CBA adds a ton of features that you'll probably end up using in your time modding
             "ls_core"
         };
         weapons[] = {};
