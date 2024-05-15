@@ -9,7 +9,11 @@ class CfgPatches
             "ls_armor_bluefor",
             "lsd_armor_bluefor"
         };
-        weapons[] = {};
+        weapons[] = {
+            "MYTAG_MYUNIT_phase2_helmet",
+            "MYTAG_MYUNIT_phase2_uniform",
+            "MYTAG_MYUNIT_CUSTOMNAME_uniform"
+        };
         // Allows for this trooper to be placed in Zeus
         units[] = {
             "MYTAG_MYUNIT_phase2_trooper"
@@ -47,7 +51,7 @@ class CfgWeapons
     // Personal Custom Uniform Example:
     class MYTAG_MYUNIT_CUSTOMNAME_uniform : ls_gar_phase2_uniform
     {
-        displayName = "CUSTOMNAME's Uniform/Armor/etc.";
+        displayName = "[MYUNIT] CUSTOMNAME's Uniform/Armor/etc.";
 
         class ItemInfo : ItemInfo
         {
