@@ -21,5 +21,6 @@ class CfgPatches {
 
 // These files are "included", meaning all of the code in those files gets merged into here.
 // This makes the code more organized and easier to read though.
+// Files that are included into another file should end with ".hpp", instead of ".cpp"
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
