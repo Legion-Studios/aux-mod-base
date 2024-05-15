@@ -19,6 +19,20 @@ class CfgVehicles {
             "\MYTAG_armor\data\MYTAG_baseUniform_camo2_co.paa",
             "\ls_armor_bluefor\uniform\gar\phase2\data\undersuit_co.paa"
         };
+
+        // Here we set what weapons we want our unit to spawn with.
+        // Make sure to list the weapons in this order, otherwise Arma can run into some issues:
+        // primary, secondary, launcher, Throw, Put
+
+        // "Throw" and "Put" are what allow units to throw grenades and place explosives.
+        weapons[] = {"ls_weapon_dc15a", "ls_weapon_dc17sidearm", "Throw", "Put"};
+        // This is what weapons the unit will repsawn with, like when a player playing at this unit dies
+        respawnWeapons[] = {"ls_weapon_dc15a", "ls_weapon_dc17sidearm", "Throw", "Put"};
+
+        // Similar to weapons, these are the "linked items" that units will spawn with.
+        // Linked items include helmets, vests, facewears, NVGs, maps, radios, etc.
+        linkedItems[] = {"MYTAG_MYUNIT_phase2_helmet", "ItemMap", "ItemCompass", "ItemGPS", "ItemWatch", "ItemRadio"};
+        respawnLinkedItems[] = {"MYTAG_MYUNIT_phase2_helmet", "ItemMap", "ItemCompass", "ItemGPS", "ItemWatch", "ItemRadio"};
     };
 
     // Creates your first placeable unit
