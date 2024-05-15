@@ -33,6 +33,8 @@ class CfgVehicles {
         // Linked items include helmets, vests, facewears, NVGs, maps, radios, etc.
         linkedItems[] = {"MYTAG_MYUNIT_phase2_helmet", "ItemMap", "ItemCompass", "ItemGPS", "ItemWatch", "ItemRadio"};
         respawnLinkedItems[] = {"MYTAG_MYUNIT_phase2_helmet", "ItemMap", "ItemCompass", "ItemGPS", "ItemWatch", "ItemRadio"};
+
+        backpack = "";  // What backpack they should spawn with, or "" to spawn without one.
     };
 
     // Creates your first placeable unit
