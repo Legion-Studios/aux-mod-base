@@ -10,7 +10,9 @@ class CfgVehicles {
               Make sure to add "public" classes to units / weapons properties in CfgPatches.
         */
 
+        faction = "MYTAG_MYUNIT";
         editorSubcategory = "MYTAG_MYUNIT_clones";
+
         uniformClass = "MYTAG_MYUNIT_phase2_uniform";
         hiddenSelectionsTextures[] = {
             "\MYTAG_armor\data\MYTAG_baseUniform_camo1_co.paa",
