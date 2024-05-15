@@ -1,7 +1,5 @@
-class CfgPatches
-{
-    class MYTAG_core
-    {
+class CfgPatches {
+    class MYTAG_core {
         author = "Jake, from Statefarm";                    // Your name, aux team, etc.
         name = "MYUNIT: Core";
         requiredAddons[] = {
@@ -15,10 +13,8 @@ class CfgPatches
 };
 
 // This creates a custom "Faction", which you can use to make your own 'Folder' in the Eden and Zeus interfaces for units
-class CfgFactionsClasses
-{
-    class MYTAG_MYUNIT
-    {
+class CfgFactionsClasses {
+    class MYTAG_MYUNIT {
         displayName = "[MYUNIT] Grand Army";
     };
 };
@@ -31,10 +27,8 @@ class CfgEditorCategories {
 };
 
 // This creates a subcategory or subfolder for a faction
-class CfgEditorSubcategories
-{
-    class MYTAG_MYUNIT_clones
-    {
+class CfgEditorSubcategories {
+    class MYTAG_MYUNIT_clones {
         displayName = "[MYUNIT] Troopers";
     };
 };
