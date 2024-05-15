@@ -14,12 +14,19 @@ class CfgPatches
     };
 };
 
-// This creates a custom "Faction", which you can use to make your own 'Folder' in the Eden and Zeus interfaces
+// This creates a custom "Faction", which you can use to make your own 'Folder' in the Eden and Zeus interfaces for units
 class CfgFactionsClasses
 {
     class MYTAG_MYUNIT
     {
         displayName = "[MYUNIT] Grand Army";
+    };
+};
+
+// Similar to CfgFactionsClasses, this creates a category in Eden/Zeus for objects
+class CfgEditorCategories {
+    class MYTAG_Objects {
+        displayName = "[MYUNIT] Objects";
     };
 };
 
