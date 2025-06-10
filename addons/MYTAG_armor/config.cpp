@@ -3,9 +3,7 @@ class CfgPatches {
         author = "Jake, from statefarm";
         name = "MYUNIT: Armor Retextures";
         requiredAddons[] = {
-            "MYTAG_core",
-            "ls_armor_bluefor",
-            "lsd_armor_bluefor"
+            "MYTAG_core"
         };
         weapons[] = {
             "MYTAG_MYUNIT_phase2_helmet",
