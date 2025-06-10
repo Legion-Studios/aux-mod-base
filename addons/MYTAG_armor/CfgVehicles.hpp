@@ -1,8 +1,9 @@
 class CfgVehicles {
     // Creates a base class for all your main infantry to inherit from
+    // This would be where you'd set common properties like what faction / subcategory the unit goes i n
     class lsd_gar_phase2_base;
     class MYTAG_MYUNIT_phase2_base: lsd_gar_phase2_base {
-        scope = 1;
+        scope = 0;
         /* Scope value meanings
          0: "Private" class, trying to create a class with scope = 0 will cause an error
          1: "Hidden" class, can be used like normal, but is hidden from Eden/Zeus, arsenal, etc.
@@ -13,13 +14,6 @@ class CfgVehicles {
 
         faction = "MYTAG_MYUNIT";
         editorSubcategory = "MYTAG_MYUNIT_clones";
-
-        uniformClass = "MYTAG_MYUNIT_phase2_uniform"; // Points to the uniform in CfgWeapons
-        hiddenSelectionsTextures[] = {
-            "\MYTAG_armor\data\MYTAG_baseUniform_camo1_co.paa",
-            "\MYTAG_armor\data\MYTAG_baseUniform_camo2_co.paa",
-            "\ls\core\addons\characters_clone_legacy\uniforms\phase2\data\undersuit_co.paa"
-        };
 
         // Here we set what weapons we want our unit to spawn with.
         // Make sure to list the weapons in this order, otherwise Arma can run into some issues:
@@ -43,6 +37,13 @@ class CfgVehicles {
         scope = 2;
         author = "You!";
         displayName = "Trooper";
+
+        uniformClass = "MYTAG_MYUNIT_phase2_uniform"; // Points to the uniform in CfgWeapons
+        hiddenSelectionsTextures[] = {
+            "\MYTAG_armor\data\MYTAG_baseUniform_camo1_co.paa",
+            "\MYTAG_armor\data\MYTAG_baseUniform_camo2_co.paa",
+            "\ls\core\addons\characters_clone_legacy\uniforms\phase2\data\undersuit_co.paa"
+        };
     };
 
     // Custom uniform example:

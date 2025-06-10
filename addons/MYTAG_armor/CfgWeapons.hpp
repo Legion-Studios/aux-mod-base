@@ -19,7 +19,7 @@ class CfgWeapons {
         displayName = "[MYUNIT] Phase 2 Trooper Armor";
 
         class ItemInfo: ItemInfo {
-            uniformClass = "MYTAG_MYUNIT_phase2_base"; // Points to a unit in CfgVehicles
+            uniformClass = "MYTAG_MYUNIT_phase2_trooper"; // Points to a unit in CfgVehicles
         };
     };
 
