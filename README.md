@@ -42,7 +42,7 @@ When using addon builder for the first time you will want to go to "Options"
 
 ![Addon Builder](img/SaveDirectly_1.png)
 
-...and copy and paste this: `*.pac;*.paa;*.sqf;*.sqs;*.bikb;*.fsm;*.wss;*.ogg;*.wav;*.fxy;*.csv;*.html;*.lip;*.txt;*.bisurf;*.sqm;*.ext;*.dbf;*.prj;*.shx;*.shp;*.jpg;*.rvmat;*.inc;*.xml;` to the 'List of files to copy directly' input.
+...and copy and paste this: `*.p3d;*.pac;*.paa;*.sqf;*.sqs;*.bikb;*.fsm;*.wss;*.ogg;*.wav;*.fxy;*.csv;*.html;*.lip;*.txt;*.bisurf;*.sqm;*.ext;*.dbf;*.prj;*.shx;*.shp;*.jpg;*.rvmat;*.inc;*.xml;` to the 'List of files to copy directly' input.
 
 ![Files To copy directly](img/SaveDirectly_2.png)
 
