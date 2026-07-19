@@ -8,11 +8,15 @@ class CfgPatches {
         weapons[] = {
             "MYTAG_MYUNIT_phase2_helmet",
             "MYTAG_MYUNIT_phase2_uniform",
-            "MYTAG_MYUNIT_CUSTOMNAME_uniform"
+            "MYTAG_MYUNIT_phase2_uniform_CUSTOMNAME",
+            "MYTAG_MYUNIT_phase2_helmet_legacy",
+            "MYTAG_MYUNIT_phase2_uniform_legacy",
+            "MYTAG_MYUNIT_CUSTOMNAME_uniform_legacy"
         };
         // Allows for this trooper to be placed in Zeus
         units[] = {
-            "MYTAG_MYUNIT_phase2_trooper"
+            "MYTAG_MYUNIT_phase2_trooper",
+            "MYTAG_MYUNIT_phase2_trooper_legacy"
         };
     };
 };

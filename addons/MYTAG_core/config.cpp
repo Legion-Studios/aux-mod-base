@@ -15,7 +15,7 @@ class CfgPatches {
 // This creates a custom "Faction", which you can use to make your own 'Folder' in the Eden and Zeus interfaces for units
 class CfgFactionClasses {
     class MYTAG_MYUNIT {
-        displayName = "[MYUNIT] Grand Army";
+        displayName = "[MYUNIT] Grand Army of the Republic";
     };
 };
 
